@@ -1,3 +1,8 @@
+/**
+ * app.js 의 app.use('users', usersRouter) 와 연결되어
+ * GEt /users 요청을 처리함
+ */
+
 var express = require('express');
 var router = express.Router();
 
